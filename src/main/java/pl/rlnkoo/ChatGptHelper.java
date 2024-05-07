@@ -11,8 +11,9 @@ import java.util.List;
 public class ChatGptHelper {
     OpenAiService aiService;
 
+    // W polu "token" wklej wygenerowany kod ze strony https://platform.openai.com
     public ChatGptHelper() {
-        aiService = new OpenAiService("sk-proj-fUpVK27t7riC8j6z8HIAT3BlbkFJDiFt0iqwZbxQ5XHdzyxT", Duration.ofSeconds(30));
+        aiService = new OpenAiService("token", Duration.ofSeconds(30));
     }
 
     public String getBreakfastIdea(List<String> products) {
