@@ -1,0 +1,6 @@
+eggs
+milk
+flour
+bread
+tomato
+butter
